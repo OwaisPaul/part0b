@@ -9,6 +9,6 @@ sequenceDiagram
     server-->>browser: JSON{"message":"note created"}
        
     Note left of server: The server responds to the request with a status code of 201 created . 
-    Note left of server: This time, the server does not request a redirect like in our previous version.
+    Note left of server: This time, the server does not request a redirect like in our previous exercise.
     Note left of server: The browser remains on the same page, and no further HTTP requests are made
    ```
